@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="lastname">Apellido</label>
+            <input type="text" id="lastname">
+        </div>
+        <div>
+            <label for="age">Edad</label>
+            <input type="text" min="18" max="80" id="age" required>
+        </div>
+        <div>
+            <label for="genero">sexo</label>
+            <input type="text" id="genero">
+        </div>
+        <div>
+            <label for="identificacion">DNI</label>
+            <input type="text" type="number" id="identificacion" maxlength="8" required>
+        </div>
+        <div>
+            <label for="correo">Email</label>
+            <input type="email" id="correo" required>
+        </div>
+        <div>
+            <input type="submit" name="formulario" id="formulario" value="Enviar Formulario">
+        </div>            
+    </form>
+
+    <Style>
+        form {
+            padding: 70px;
+            border: double;
+        }
+
+        input:focus {
+            background-color: skyblue;
+            color: green;
+        }
+
+    </Style>
+        
+</body>
+</html>
