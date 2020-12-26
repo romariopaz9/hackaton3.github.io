@@ -1,0 +1,13 @@
+header {
+    color: skyblue;
+    background-color: snow;
+    font-size: medium;
+}
+
+section {
+    display: flex;
+}
+footer {
+    background-color: steelblue;
+    color: white;
+}
